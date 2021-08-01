@@ -25,4 +25,4 @@ test
 		let otp = await commonMethod.getOpt(data.e2eaccount.randomEmail);
 		await ResetPasswordPage.enterOpt(otp);
 		await ResetPasswordPage.enterNewPassword(data.e2eaccount.newPassword)
-	})
+	}).skip;

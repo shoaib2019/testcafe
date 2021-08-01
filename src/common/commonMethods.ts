@@ -7,6 +7,7 @@ const checkEMailButton = Selector('button[class="btn btn-primary"]')
 const email = Selector('strong[class="ng-binding"]')
 let otptext = Selector('div[dir="ltr"]')
 const CheckMessageInInbox = Selector('tr[ng-show="!messages.length"]')
+const newEmailChecking = Selector('strong[class="ng-binding"]')
 let otp = '';
 /**To Change the default language */
 export async function selectLanguage() {
@@ -29,8 +30,8 @@ export async function getOpt(randomEmail: string) {
     if (messageLen === 'No mail!') {
         console.log('Otp received in inbox')
     } else {
-        await t.click(email)
-        otp = await otptext.innerText;
+            await t.click(newEmailChecking)
+            otp = await otptext.innerText;
     }
 
     return otp;

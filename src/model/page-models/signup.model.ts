@@ -97,8 +97,8 @@ class SignupPage {
 
 	}
 	async clickConfirmButton() {
-			await t
-				.click(this.confirmButton)
+		await t
+			.click(this.confirmButton)
 	}
 	async verification(account: string, otp: string) {
 		await t
