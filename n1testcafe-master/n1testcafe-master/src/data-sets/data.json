@@ -1,0 +1,31 @@
+{
+	"MasterData": {
+		"login": {
+			"accountNumber": "208102157",
+			"email": "new-coworker@nicedomain.com",
+			"password": "Testauto@2021",
+			"environment": "demo",
+			"economicToken": "",
+			"firstName": "Automation",
+			"lastName": "Test",
+			",mobileNumber": "8328281656"
+		},
+		"InValida_login": {
+			"accountNumber": "208102189",
+			"email": "new-coworker@nicedomain.com",
+			"password": "Testauto@2021",
+			"environment": "demo",
+			"economicToken": "",
+			"firstName": "Automation",
+			"lastName": "Test",
+			",mobileNumber": "8328281656"
+		},
+		"signup": {
+			"cvr": "36542993",
+			"firstName": "Automation",
+			"lastName": "Test",
+			"mobileNumber": "8328281656",
+			"email": "new-coworker@nicedomain.com"
+		}
+	}
+}
