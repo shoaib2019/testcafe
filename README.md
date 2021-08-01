@@ -41,5 +41,4 @@ Ans: Yes currently i m working on testcafe.
 2. Did you have any blockers during the assignment?
 Ans: No i did not found any bloker while doing assignment.
 3. What are your thoughts of the framework?
-Ans: TestCafe is a web-based functional testing framework. It allows you to write tests using JavaScript, TypeScript.
-Here this is the basic scalton which is designed very will and organized manner but still we can improve here.
+Ans: This framework was the basic scalton which was superbly designed to check the actual working knowled on testcafe framework.
