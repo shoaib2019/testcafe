@@ -27,10 +27,10 @@ test
 		await SignupPage.fillForm(cvr, firstName, lastName, yourPersonalEmail, mobileNumber);
 		//await t.expect(SignupPage.verificationPage.exists).ok({ timeout: Times.LONG });
 		await SignupPage.submitForm();
-		
-		/* To enter otp fro account verification
+		await SignupPage.clickConfirmButton()
+		//To enter otp fro account verification
 		let otp = await commonMethod.getOpt(data.e2eaccount.randomEmail);
 		await ResetPasswordPage.enterOpt(otp);
-		await SignupPage.verification(data.e2eaccount.accountNumber,otp)*/
+		await SignupPage.verification(data.e2eaccount.accountNumber,otp)
 	});
 

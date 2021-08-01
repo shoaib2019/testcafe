@@ -97,10 +97,8 @@ class SignupPage {
 
 	}
 	async clickConfirmButton() {
-		if (await t.expect(this.createAccountText.exists).ok()) {
 			await t
 				.click(this.confirmButton)
-		}
 	}
 	async verification(account: string, otp: string) {
 		await t
